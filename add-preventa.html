@@ -1,0 +1,15 @@
+<div class="modal-header">
+    <button type="button" class="close" ng-click="cancel()" data-dismiss="modal" aria-hidden="true"
+    >&times;</button>
+    <h1>Registrar Pre-Venta</h1>
+</div>
+
+<div class="modal-body">
+    <label>Nombre</label><input type="text" ng-model="nuevaPreventanombre"/>
+    <label>Monto a Cancelar</label><input type="text" ng-model="nuevaPreventa.montoCancelar"/>
+    <label>Fecha de Pago</label><input type="date" ng-model="nuevaPreventa.fechaLanzamiento"/>
+    <label>Numero Telefono</label><input type="number" ng-model="nuevaPreventa.numeroTelefono"/>
+    <label>Correo</label><input type="email" ng-model="nuevaPreventa.correo"/>
+    <br/>
+    <button class="btn btn-success" ng-click="salvarNuevaPreventa()">Registrar Pre-Venta</button>
+</div>

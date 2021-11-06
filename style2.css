@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #171a21;
+}
+
+.menu-navegacion{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #171a21;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 35px 0 35px;
+}
+
+.buscar a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44416b;
+    border: 2px solid #000000;
+    padding:8px;
+    align-items: center;
+    
+}
+.buscar a:hover{
+    font-size: 13px;
+}
+
+
+.menu a:hover{
+    background-color: rgb(221, 219, 216);
+    font-size: 30px;
+}
+
+.imagen{
+    background-image: url(Imagenes/imagen.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.novedades{
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+
+.noticias-gaming{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.linea{
+    width: 800px;
+    height: 1px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.seccion1{
+    width: 70%;
+    height: 220px;
+    background-color: rgb(59, 57, 75);
+    margin:50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seccion1 img{
+    width: 300px;
+    height: 210px;
+    margin: 5px;
+}
+
+.contenido{
+    margin: 10px;
+    text-align: start;
+} 

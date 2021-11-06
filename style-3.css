@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #171a21;
+}
+
+.menu-navegacion{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #171a21;  
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 35px 0 35px;
+}
+
+.buscar a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44416b;
+    border: 2px solid #000000;
+    padding:8px;
+    align-items: center;
+    
+}
+.buscar a:hover{
+    font-size: 13px;
+}
+
+.menu a:hover{
+    background-color: rgb(221, 219, 216);
+    font-size: 30px;
+}
+
+.imagen{
+    background-image: url(Imagenes/imagen.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    
+}
+
+.section1{
+    margin: 50px 100px;
+}
+
+aside{
+    float: right;
+    width: 300px;
+}
+
+.aside h1{
+    color: white;
+}
+
+.aside a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-decoration: none;
+    color: #66c0f4;
+}
+
+.explorar h1{
+    color: white;
+}
+
+.flecha{
+    color: white;
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.consolas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.consola-imagen{
+    background-image: url(Imagenes/imagen.jpg);
+    margin: 20px;
+    width: 600px;
+    height: 600px;
+
+}
+.form-register {
+    width: 400px;
+    background: #171A21;
+    padding: 0px;
+    margin: left;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Arial';
+    color: white;
+    box-shadow: 7px 13px 37px #171a21;
+    
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #171a21;
+    font-family: 'Arial';
+    font-size: 18px;
+    color: green;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .img1{
+      margin: auto;
+      display: block;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      transform: translateX(100%) translateY(100%);
+  }
+  #botones-1{
+    width: 500%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  #botones-1:hover {
+      background-color:#1745a7 ;
+  }

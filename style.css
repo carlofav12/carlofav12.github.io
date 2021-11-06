@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #171a21;
+}
+
+.menu-navegacion{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #171a21;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 35px 0 35px;
+}
+
+.iconos{
+    display: none;
+}
+
+.icono{
+    width: 10px;
+    height: 2px;
+    background: white;
+    margin: 1px;
+    border-radius: 20px;
+}
+
+.buscar a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44416b;
+    border: 2px solid #000000;
+    padding:8px;
+    align-items: center;
+    
+}
+.buscar a:hover{
+    font-size: 13px;
+}
+
+
+.menu a:hover{
+    background-color: rgb(221, 219, 216);
+    font-size: 30px;
+}
+
+.imagen{
+    background-image: url(Imagenes/imagen.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel{
+    margin-top: 50px;
+} 
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.section1{
+    margin: 50px 100px;
+}
+
+aside{
+    float: right;
+    width: 300px;
+}
+
+.aside h1{
+    color: white;
+}
+
+.aside a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-decoration: none;
+    color: #66c0f4;
+}
+
+.explorar{
+    width: 70%;
+
+}
+
+.explorar h1{
+    color: white;
+}
+
+.flecha{
+    color: white;
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.consolas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.consola-imagen1{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen2{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen3{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen4{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen5{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen6{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.carousel__contenedor{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.carousel__contenedor{
+    text-align: center;
+}
+.carousel__indicadores .glider-dot{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carousel__indicadores .glider-dot:hover{
+    opacity: 1;
+}
+
+.IMG_CA{
+    width: 41%;
+    height: 85%;
+}
+
+@media screen and (max-width: 1030px){
+
+    .menu-navegacion img{
+        width: ao;
+    }
+
+    .menu{
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: fixed;
+        z-index: 100;
+        transition: 2s ease-in-out;
+        transform: translateX(110%);
+        top: 0;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .iconos{
+        display: block;
+    }
+
+    .icono{
+        width: 20px;
+        height: 4px;
+    }
+
+    .menu a{
+        color: black;
+        margin: 10px;
+    }
+
+    .menu a:hover{
+        color: rgb(43, 255, 184);
+    }
+
+    .spread{
+        transition: 2s ease-in-out;
+        transform: translate(0);
+        display: flex;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    .explorar{
+        display: block;
+        margin: auto ;
+
+    }
+
+    .aside{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+
+    .consolas{
+        display: block;
+    }
+
+    .flecha{
+        display: none;
+    }
+
+    .consola-imagen1 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 500px;
+        margin: 0 50%;
+    }
+
+    .consola-imagen2 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 500px;
+        margin: 0 50%;
+    }
+
+    .consola-imagen3 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 500px;
+        margin: 0 50%;
+    }
+
+    .consola-imagen4 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height:500px;
+        margin: 0 50%;
+    }
+
+    .consola-imagen5 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 500px;
+        margin: 0 50%;
+    }
+
+    .consola-imagen6 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 500px;
+        margin: 0 50%;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .consola-imagen1 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 300px;
+        margin: 0 20%;
+    }
+
+    .consola-imagen2 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 300px;
+        margin: 0 20%;
+    }
+
+    .consola-imagen3 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 300px;
+        margin: 0 20%;
+    }
+
+    .consola-imagen4 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height:300px;
+        margin: 0 20%;
+    }
+
+    .consola-imagen5 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 300px;
+        margin: 0 20%;
+    }
+
+    .consola-imagen6 img{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 300px;
+        margin: 0 20%;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .consola-imagen1 img{
+        width: 150px;
+        height: 250px;
+        margin: 0 10%;
+    }
+
+    .consola-imagen2 img{
+        width: 150px;
+        height: 250px;
+        margin: 0 10%;
+    }
+
+    .consola-imagen3 img{
+        width: 150px;
+        height: 250px;
+        margin: 0 10%;
+    }
+
+    .consola-imagen4 img{
+        width: 150px;
+        height: 250px;
+        margin: 0 10%;
+    }
+
+    .consola-imagen5 img{
+        width: 150px;
+        height: 250px;
+        margin: 0 10%;
+    }
+
+    .consola-imagen6 img{
+        width: 150px;
+        height: 250px;
+        margin: 0 10%;
+    }
+}
